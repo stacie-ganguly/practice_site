@@ -171,6 +171,13 @@ h3 { font-size: 1.2rem; font-weight: 700; }
   color: var(--green-700);
 }
 
+/* added hover for nav-links*/
+.nav-links a:hover {
+  color: var(--green-700);
+  background-color: var(--green-100);
+}
+
+
 .nav-cta { margin-left: 0.5rem; padding: 9px 20px; font-size: 0.875rem; }
 
 .hamburger {
@@ -203,6 +210,10 @@ h3 { font-size: 1.2rem; font-weight: 700; }
   font-weight: 600;
   color: var(--gray-700);
   border-bottom: 1px solid var(--gray-100);
+}
+/*added hover for mobile menu*/
+.mobile-menu a:hover {
+  color: var(--green-700);
 }
 
 .hero {
