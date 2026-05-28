@@ -90,8 +90,11 @@ Evergreen Pet Supply Co. - Natural Pet Products in Austin, TX
 - Viewport meta: `content="width=device-width, initial-scale=1.0"` (correctly formatted)
 - Page `<title>` matches specification exactly
 - Correct landmark roles: `banner`, `main`, `contentinfo`
+
+/*come back to this*/
 - Skip link must be the first focusable element: `<a href="#main-content" class="skip-link">Skip to main content</a>`
-- All non-decorative images must have descriptive `alt` text
+
+- All non-decorative images must have descriptive `alt` text /*there are no non-decorative images. all r decorative svgs*/
 - All decorative SVGs must have `aria-hidden="true"`
 
 ### 3.2 Accessibility

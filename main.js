@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburger.addEventListener('click', () => {
       const isOpen = hamburger.getAttribute('aria-expanded') === 'true';
       hamburger.setAttribute('aria-expanded', String(!isOpen));
-      mobileMenu.hidden = !isOpen;
+      mobileMenu.hidden = !isOpen; //i dont get this one
     });
   }
 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
   sections.forEach(s => sectionObserver.observe(s));
 
   // COUNTER ANIMATION
-  const counters = document.querySelectorAll('.stat-val');
+  const counters = document.querySelectorAll('.stat-number');
 
   counters.forEach(counter => {
     const target = parseFloat(counter.getAttribute('data-target'));
